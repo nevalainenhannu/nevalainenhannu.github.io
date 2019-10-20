@@ -1,0 +1,48 @@
+body{
+    background-color: lightslategrey;
+}
+#main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tiedot, #maantiede, #vakilukubkt, #lahteet{
+    border: 0.1em solid black;
+    padding: 0.8em;
+    margin: 0.5em;
+    width: 45%;
+    background-color: lightgray;
+}
+
+#header{
+    border: 0.1em solid black;
+    background-color: grey;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.navbutton{
+    display:inline-block;
+    padding: 0.5em;
+    border: 0.1em solid black;
+    background-color: lightgrey;
+    margin: 0.2em;
+    text-decoration: none;
+}
+img{
+    max-width: 75%;
+    max-height: 75%;
+}
+.taulukot{
+    display: flex;
+}
+
+table, td, tr, th{
+    padding: 0.2em;
+    border: 0.1em solid black;
+    border-collapse: collapse;
+    margin: 1em;
+}
